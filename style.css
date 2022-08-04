@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: rgb(160, 20, 241);
+    height: 20vh;
+    display: grid;
+    grid-template-columns: .5fr 1.5fr;
+
+
+}
+h1{
+    color:white;
+    font-family: 'Nuosu SIL', serif;
+    font-size: 40px;
+    padding-top: 1vw;
+    padding-right: 8vh;
+    text-align: center;
+ 
+}   
+
+
+nav, a {
+    margin-right: 40px;
+    font-size: 20px;
+  text-align: center;
+  padding-top: 13vh;
+  padding-right: 30vh;
+  text-decoration: none;
+  
+}
+a{
+    color:white;
+    background-color: rgb(125, 125, 240);
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+
+}
+a:hover{
+    background-color: rgb(165, 165, 239);
+
+}
+
+/*-------------------------------*/
+div#cor{
+background-image:linear-gradient(to right, blue, #4a4a95 70%,#060650  );
+height: 10px;
+
+}
+main{
+
+display: grid;
+flex-direction: column;
+grid-template-columns: .5fr 1fr 1fr;
+
+
+}
+main, div#pri{
+
+    margin-left: 27px;
+
+}
+h2{
+    margin-left: 300px;
+    font-size: 32px;
+    text-align: center;
+    
+
+}
+main, p{
+
+text-align: center;
+
+}
+main,div#col{
+
+font-size: 20px;
+margin-top: 3vw;
+margin-left:5vh;
+padding-top: 5vw;
+
+}
+main, div#botao{
+
+    font-size:32px;
+    text-align: center;
+
+}
+div#botao {
+
+    margin-top:5vw;
+    
+   
+
+}
+div#botao p{
+    color:white;
+    text-align: center;
+    margin-left: 2vw;
+    margin-bottom: 5vw;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(125, 125, 240);
+    border-radius: 5px;
+
+}
+div#botao p:hover{
+    background-color: rgb(160, 160, 226);
+
+
+}
+img {
+
+
+        margin-left: 20vw;
+        height:500px;
+}
+/*-----------------------------*/
+section{
+color:white;
+text-align: center;
+background-color: rgb(125, 125, 240);
+font-size: 18px;
+height:  20vw;
+}
+h3{
+    text-align: center;
+    padding-top:20px;
+    margin-bottom:20px;
+}
+
+/*--------------------------*/
+footer p{
+    height:3vw;
+    padding-top: 30px;
+    background:rgb(160, 20, 241);
+    text-align: center;
+    color:white;
+
+}
