@@ -14,9 +14,8 @@ h1{
     color:white;
     font-family: 'Nuosu SIL', serif;
     font-size: 40px;
-    padding-top: 1vw;
-    padding-right: 8vh;
-    text-align: center;
+   margin-left: 10px;
+    text-align: left, end;
  
 }   
 
@@ -118,19 +117,36 @@ img {
 /*-----------------------------*/
 section{
 color:white;
-text-align: center;
-background-color: rgb(125, 125, 240);
+padding-bottom:50px ;
+
+background-color: rgb(165, 165, 239);
 font-size: 18px;
 height:  20vw;
 }
 h3{
     text-align: center;
+    margin-left: 15px;
     padding-top:20px;
     margin-bottom:20px;
 }
+section p{
+    
+    background-color: rgb(160, 20, 241);
+padding-top:5px;
+padding-bottom: 5px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 5px;
+    
+  
+
+margin-left: 25px;
+margin-bottom: 10px;
+
+}
 
 /*--------------------------*/
-footer p{
+footer address{
     height:3vw;
     padding-top: 30px;
     background:rgb(160, 20, 241);
